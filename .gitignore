@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+.npm
+.pnpm-store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+.replit
+replit.nix
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# WhatsApp Session Data (exclude auth info for security)
+auth_info_baileys/
+.wwebjs_auth/
+session/
+tokens/
+.jids/
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
